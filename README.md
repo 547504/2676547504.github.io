@@ -11,28 +11,15 @@ Sakura|帮助|关于
 
 ## Sakura-UI简介
 
-   为了更好的呈现页面的温和简洁，于2020年4月25日开始开发内容
+   为了更好的呈现页面的温和简洁，于2020年4月25日开始开发Sakura-UI
 
-正如您在阅读的这份文档，它使用简单的符号标识不同的标题，将某些文字标记为**粗体**或者*斜体*，创建一个[链接](http://www.example.com)或一个脚注[^demo]。下面列举了几个高级功能，更多语法请按`Ctrl + /`查看帮助。 
-
-### 代码块
-``` python
-@requires_authorization
-def somefunc(param1='', param2=0):
-    '''A docstring'''
-    if param1 > param2: # interesting
-        print 'Greater'
-    return (param2 - param1 + 1) or None
-class SomeClass:
-    pass
->>> message = '''interpreter
-... prompt'''
+### bug修复
+``` html
+ <div id="mySidenav" class="sidetrack"></div>
 ```
-### LaTeX 公式
+   目前修复侧边栏影响整体移动端视觉问题
 
-可以创建行内公式，例如 $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$。或者块级公式：
 
-$$	x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 
 ### 表格
 | Item      |    Value | Qty  |
