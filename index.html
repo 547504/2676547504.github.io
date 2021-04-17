@@ -1,29 +1,88 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-  <title>Bootstrap 实例</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
-  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <style>
-  /* Make the image fully responsive */
-  .carousel-inner img {
-      width: 100%;
-      height: 100%;
-  }
-  </style>
-</head>
+<title> 个人介绍 | 关于 </title><!--///////////////////////////////////////////////////-->
+<link rel="stylesheet" type="text/css" href="./css/style.css"><!--////////////////////-->
+<link rel="icon" type="images/x-icon" href="./img/favicon.png"><!--///////////////////-->
+<meta name="author" content="失去之物,2676547504@qq.com,sakura"><!--///////////////////-->
+<meta name="keywords" content="2676547504,css,html,javascript"><!--///////////////////-->
+<meta name="viewport" content="width=device-width,initial-scale=1"><!--///////////////-->
+<meta name="copyright" content="由失去之物个人开发的一个小小html网页"><!--///////////////-->
+<meta name="description" content="由失去之物个人开发的一个小小网页"><!--/////////////////-->
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script><!--////-->
+<script type="text/javascript" src="./script/sakura.min.js"></script><!--/////////////-->
+<meta charset="utf-8"><!--////////////////////////////////////////////////////////////-->
+</head>    
+<script>
+
+</script>
 <body>
 
-<div id="demo" class="carousel slide" data-ride="carousel">
- 
-  <!-- 指示符 -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
- 
+<main class="sakura-main" id="main">
+
+<div class="sakura-cen">
+
+
+
+<!--搜索栏-->
+<div id="search" class="sakura-search"><!--///////////////////////////////////////////-->
+<input type="text" name="s" placeholder="search"><!--/////////////////////////////////-->
+<a href="#" id="searchno"><i class="bi bi-caret-up-fill"></i></a><!--/////////////////-->
+</div><!--////////////////////////////////////////////////////////////////////////////-->
+
+
+
+<!--顶部导航栏--> 
+<top class="sakura-bar"><!--//////////////////////////////////////////////////////////-->
+<div class="sakura-bar-cen"><!--//////////////////////////////////////////////////////-->
+<div class="left"><!--////////////////////////////////////////////////////////////////-->
+<a href="#">个人介绍</a><!--///////////////////////////////////////////////////////////-->
+</div> <!--///////////////////////////////////////////////////////////////////////////--> 
+<div class="right"><!--///////////////////////////////////////////////////////////////-->
+<a href="#" id="searchup"><!--////////////////////////////////////////////////////////-->
+<i class="bi bi-caret-down-fill"></i><!--/////////////////////////////////////////////-->
+</a><!--//////////////////////////////////////////////////////////////////////////////-->
+<a href="#" onclick="openNav()"><!--//////////////////////////////////////////////////-->
+<i class="bi bi-three-dots-vertical"></i><!--/////////////////////////////////////////-->
+</a><!--//////////////////////////////////////////////////////////////////////////////-->
+</div><!--////////////////////////////////////////////////////////////////////////////-->
+</div><!--////////////////////////////////////////////////////////////////////////////-->
+</top><!--////////////////////////////////////////////////////////////////////////////--> 
+
+
+
+<!--主体内容--> 
+<div class="sakura-center"><!--///////////////////////////////////////////////////////-->
+<img class="author-img" src="http://q1.qlogo.cn/g?b=qq&nk=2676547504&s=640"><!--//////-->
+<h1>艾伦</h1><!--/////////////////////////////////////////////////////////////////////--> 
+<p>A simple word</p><!--//////////////////////////////////////////////////////////////-->
+<p id="text"><script>document.write(quote)</script></p><!--///////////////////////////-->
+</div><!--////////////////////////////////////////////////////////////////////////////-->
+
+
+
+<!--侧边栏-->
+<div id="mySidenav" class="sidetrack"><!--////////////////////////////////////////////-->
+<div class="sidetrack-back" onclick="closeNav()"><!--/////////////////////////////////-->
+Back<i class="bi bi-caret-right-fill"></i>&nbsp&nbsp<!--//////////////////////////////-->
+</div><!--////////////////////////////////////////////////////////////////////////////-->
+<div class="sidetrack-cen"><!--///////////////////////////////////////////////////////-->
+<input class="search" type="text" name="s" placeholder="search"><!--//////////////////-->
+<ul class="nav justify-content-center"><!--///////////////////////////////////////////-->
+<li class="nav-item"><a class="nav-link disabled" href="#">首頁</a></li><!--//////////-->
+<li class="nav-item"><a class="nav-link" href="#">关于</a></li><!--///////////////////-->
+<li class="nav-item"><a class="nav-link" href="#">每日</a></li><!--///////////////////-->          
+</ul><!--/////////////////////////////////////////////////////////////////////////////-->
+</div><!--////////////////////////////////////////////////////////////////////////////-->
+<div class="sidetrack-foot">©版权由 失去之物 所有</div><!--///////////////////////////-->
+</div><!--////////////////////////////////////////////////////////////////////////////-->
+
+
+
+
+</div>
+</main>
+</body>
+</html>
