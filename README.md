@@ -17,16 +17,16 @@ Sakura|帮助|关于
 ``` html
  <div id="mySidenav" class="sidetrack"></div>
 ```
-   目前修复侧边栏影响整体移动端视觉问题
+   目前修复侧边栏影响整体移动端页面占比问题
 
 
 
 ### 表格
-| Item      |    Value | Qty  |
+| 版本      |      时间 | id   |
 | :-------- | --------:| :--: |
-| Computer  | 1600 USD |  5   |
-| Phone     |   12 USD |  12  |
-| Pipe      |    1 USD | 234  |
+| 1.0       |      4.5 |  1   |
+| 1.1       |      5.5 |  2   |
+| 2.0       |      4.2 |  3   |
 
 ### 流程图
 ```flow
