@@ -37,14 +37,12 @@ Sakura|帮助|关于
 
 
 ## 联系
-- 微博：[@马克飞象](http://weibo.com/u/2788354117)，[@GGock](http://weibo.com/ggock "开发者个人账号")
+- 哔哩哔哩：[@本就没有希望之说](https://space.bilibili.com/203399508)
 - 邮箱：<2676547504@qq.com>
 
 ---------
-感谢阅读这份帮助文档。下面以dns链接来开始使用吧!
+感谢阅读这份帮助文档。
 
 
-
-[^demo]: 这是一个示例脚注。请查阅 [MultiMarkdown 文档](https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide#footnotes) 关于脚注的说明。 **限制：** 印象笔记的笔记内容使用 [ENML][5] 格式，基于 HTML，但是不支持某些标签和属性，例如id，这就导致`脚注`和`TOC`无法正常点击。
 
 
