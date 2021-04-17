@@ -1,4 +1,4 @@
-![mahua](mahua-logo.jpg)
+![mahua](http://q1.qlogo.cn/g?b=qq&nk=732128096&s=640)
 ##MaHua是什么?
 一个在线编辑markdown文档的编辑器
 
