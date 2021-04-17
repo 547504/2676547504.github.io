@@ -28,37 +28,13 @@ Sakura|帮助|关于
 | 1.1 测试版     |      2020年5月5日 |  2   |
 | 2.0  开发版    |      2021年4月2日 |  3   |
 
-### 流程图
-```flow
-st=>start: Start
-e=>end
-op=>operation: My Operation
-cond=>condition: Yes or No?
 
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
+> **注意：**版本的更新进度较慢慢，因为所有内容由个人开发
 
-以及时序图:
+### 使用编程语言
 
-```sequence
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
-```
+- [x] html、JavaScript、css
 
-> **提示：**想了解更多，请查看**流程图**[语法][3]以及**时序图**[语法][4]。
-
-### 复选框
-
-使用 `- [ ]` 和 `- [x]` 语法可以创建复选框，实现 todo-list 等功能。例如：
-
-- [x] 已完成事项
-- [ ] 待办事项1
-- [ ] 待办事项2
-
-> **注意：**目前支持尚不完全，在印象笔记中勾选复选框是无效、不能同步的，所以必须在**马克飞象**中修改 Markdown 原文才可生效。下个版本将会全面支持。
 
 
 ## 印象笔记相关
