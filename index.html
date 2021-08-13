@@ -1,88 +1,97 @@
 <!DOCTYPE html>
-
 <html>
+<!--  
 
+
+-->
 <head>
-<title> 个人介绍 | 关于 </title><!--///////////////////////////////////////////////////-->
-<link rel="stylesheet" type="text/css" href="./css/style.css"><!--////////////////////-->
-<link rel="icon" type="images/x-icon" href="./img/favicon.png"><!--///////////////////-->
-<meta name="author" content="失去之物,2676547504@qq.com,sakura"><!--///////////////////-->
-<meta name="keywords" content="2676547504,css,html,javascript"><!--///////////////////-->
-<meta name="viewport" content="width=device-width,initial-scale=1"><!--///////////////-->
-<meta name="copyright" content="由失去之物个人开发的一个小小html网页"><!--///////////////-->
-<meta name="description" content="由失去之物个人开发的一个小小网页"><!--/////////////////-->
-<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script><!--////-->
-<script type="text/javascript" src="./script/sakura.min.js"></script><!--/////////////-->
-<meta charset="utf-8"><!--////////////////////////////////////////////////////////////-->
-</head>    
-<script>
-
-</script>
+<!--"我只希望平淡的日子里有风，风吹来的是花的香味。"-->
+<!--引入本地css-->
+<link rel="stylesheet" type="text/css" href="./css/sakura.css">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--utf-8防乱码-->
+     <meta charset="utf-8">
+<!--标题-->
+<title> 个人介绍 | 关于 </title>
+</head>
+<!-- 
+                      /^——^\     /^——^\     /^——^\
+                      \____/     \____/     \____/
+                     /      \   /      \   /      \
+                    |        | |        | |        |
+                     \__  __/   \__  __/   \__  __/
+|^|^|^|^|^|^|^|^|^|^|^|^\ \^|^|^|^/ /^|^|^|^|^\ \^|^|^|^|^|^|^|^|^|^|^|^|
+| | | | | | | | | | | |^|\ \| | |/ /| | | | | |\ \| | | | | | | | | | | |
+#########################/ /#####\ \###########/ /#######################
+| | | | | | | | | | | | |\/| | | |\/| | | | | |\/ | | | | | | | | | | | |
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|
+-->
+<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
 <body>
+<sakura>
 
-<main class="sakura-main" id="main">
+<style type="text/css">
+h1,h2,h3,h4,h5,h6{
+	font-family: "Roboto Slab",serif;
+	font-weight: bold; 
+} 
+.text{
+	font-family: "Times New Roman";
+}
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover{
+	color: #ccc;
+}
+/*css配置内容*/
+</style>
 
-<div class="sakura-cen">
-
-
-
-<!--搜索栏-->
-<div id="search" class="sakura-search"><!--///////////////////////////////////////////-->
-<input type="text" name="s" placeholder="search"><!--/////////////////////////////////-->
-<a href="#" id="searchno"><i class="bi bi-caret-up-fill"></i></a><!--/////////////////-->
-</div><!--////////////////////////////////////////////////////////////////////////////-->
-
-
-
-<!--顶部导航栏--> 
-<top class="sakura-bar"><!--//////////////////////////////////////////////////////////-->
-<div class="sakura-bar-cen"><!--//////////////////////////////////////////////////////-->
-<div class="left"><!--////////////////////////////////////////////////////////////////-->
-<a href="#">个人介绍</a><!--///////////////////////////////////////////////////////////-->
-</div> <!--///////////////////////////////////////////////////////////////////////////--> 
-<div class="right"><!--///////////////////////////////////////////////////////////////-->
-<a href="#" id="searchup"><!--////////////////////////////////////////////////////////-->
-<i class="bi bi-caret-down-fill"></i><!--/////////////////////////////////////////////-->
-</a><!--//////////////////////////////////////////////////////////////////////////////-->
-<a href="#" onclick="openNav()"><!--//////////////////////////////////////////////////-->
-<i class="bi bi-three-dots-vertical"></i><!--/////////////////////////////////////////-->
-</a><!--//////////////////////////////////////////////////////////////////////////////-->
-</div><!--////////////////////////////////////////////////////////////////////////////-->
-</div><!--////////////////////////////////////////////////////////////////////////////-->
-</top><!--////////////////////////////////////////////////////////////////////////////--> 
+<script src="./scr/script.js">
+//里面包括一些js的配置
+</script>
 
 
-
-<!--主体内容--> 
-<div class="sakura-center"><!--///////////////////////////////////////////////////////-->
-<img class="author-img" src="http://q1.qlogo.cn/g?b=qq&nk=2676547504&s=640"><!--//////-->
-<h1>艾伦</h1><!--/////////////////////////////////////////////////////////////////////--> 
-<p>A simple word</p><!--//////////////////////////////////////////////////////////////-->
-<p id="text"><script>document.write(quote)</script></p><!--///////////////////////////-->
-</div><!--////////////////////////////////////////////////////////////////////////////-->
+<main class="sakura-body">
+<main class="sakura-main">
 
 
+<main class="sakura-center">
+  <img src="http://q1.qlogo.cn/g?b=qq&amp;nk=2676547504&amp;s=640">
 
-<!--侧边栏-->
-<div id="mySidenav" class="sidetrack"><!--////////////////////////////////////////////-->
-<div class="sidetrack-back" onclick="closeNav()"><!--/////////////////////////////////-->
-Back<i class="bi bi-caret-right-fill"></i>&nbsp&nbsp<!--//////////////////////////////-->
-</div><!--////////////////////////////////////////////////////////////////////////////-->
-<div class="sidetrack-cen"><!--///////////////////////////////////////////////////////-->
-<input class="search" type="text" name="s" placeholder="search"><!--//////////////////-->
-<ul class="nav justify-content-center"><!--///////////////////////////////////////////-->
-<li class="nav-item"><a class="nav-link disabled" href="#">首頁</a></li><!--//////////-->
-<li class="nav-item"><a class="nav-link" href="#">关于</a></li><!--///////////////////-->
-<li class="nav-item"><a class="nav-link" href="#">每日</a></li><!--///////////////////-->          
-</ul><!--/////////////////////////////////////////////////////////////////////////////-->
-</div><!--////////////////////////////////////////////////////////////////////////////-->
-<div class="sidetrack-foot">©版权由 失去之物 所有</div><!--/////////////////////////////-->
-</div><!--////////////////////////////////////////////////////////////////////////////-->
+  <h1 class="author"></h1>
 
+  <p><a href="./scr/script.js">A simple word</a></p>
 
+  <p class="text"><!-- 一段文字 --></p>
 
+<div class="container">
+
+  <a href="" class="bilibili">
+    <span class="iconify" data-icon="ri:bilibili-fill" data-width="40" data-height="40">
+   </span>  
+  <a href="" class="mail">
+    <span class="iconify" data-icon="fe:mail" data-width="40" data-height="40">
+    </span>
+  </a>
+  <a href="" class="github">
+    <span class="iconify" data-icon="la:github-alt" data-width="40" data-height="40">
+    </span>
+  </a>
 
 </div>
 </main>
+
+
+</main>
+</main>
+
+
+
+
+</sakura>
 </body>
 </html>
