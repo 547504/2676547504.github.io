@@ -1,0 +1,25 @@
+/*!
+ * 🌸sakura v1.0
+ * 不过是某人的执念罢了
+ */   
+  :root{
+     --樱:#FEDFE1;
+     --橘:#E9141B;
+     --白:#FFFFFB;    
+     --黑:#3d3d3d;
+  }
+
+/*滚轮颜色*/
+::-webkit-scrollbar-thumb {
+    background-color: #3d3d3d;
+}
+::-webkit-scrollbar {
+    background-color: #fff;
+    width: 8px;
+}
+
+/*选中时颜色*/
+::selection {
+    color: #fff;
+    background-color: #e9141b;
+}
