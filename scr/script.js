@@ -1,7 +1,7 @@
 window.onload = function (){
 // 配置区域
+  var qq = '2676547504';
   var author = "艾伦";
-
   var bilibili = '#';
   var mail = '#';
   var github = '#';
@@ -42,5 +42,6 @@ window.onload = function (){
   document.getElementsByClassName("author")[0].innerHTML = author;
   document.getElementsByClassName("bilibili")[0].href = bilibili;
   document.getElementsByClassName("mail")[0].href = mail;
+  document.getElementsByClassName("author-img")[0].src = 'http://q1.qlogo.cn/g?b=qq&nk=' + qq + '&s=640';
   
 }
