@@ -1,7 +1,7 @@
 window.onload = function (){
 // 配置区域
   var qq = '2676547504';
-  var author = "艾伦";
+  var author = "不知名";
   var bilibili = '#';
   var mail = '#';
   var github = '#';
