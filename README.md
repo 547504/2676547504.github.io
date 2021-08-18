@@ -1,29 +1,29 @@
 ![enter image description here](http://q1.qlogo.cn/g?b=qq&nk=2676547504&s=640)
-# 欢迎使用Sakura-UI
+# introduce
 
-Sakura|帮助|关于
+introduce|帮助|关于
 
-**Sakura-UI** 是为了让页面简洁且美观
-- **目前版本** ：2.0测试版；
-- 预览站点[Sakura](http://2676547504.github.io)
+**introduce** 是为了让页面简洁且美观
+- **版本** ：v2.0 测试版
+- 预览站点[点此访问](http://a.conn.tk)
 -------------------
 
 
-## Sakura-UI简介
+## introduce简介
 
-   为了更好的呈现页面的温和简洁，于2020年4月25日开始开发Sakura-UI
+   为了更好的呈现页面的温和简洁...
 
-### bug修复
+### 修复
 ``` html
- <div id="mySidenav" class="sidetrack"></div>
+
 ```
-   目前修复侧边栏影响整体移动端页面占比问题
+   
 
 
 
 
 
-> 注意：版本的更新进度较慢慢，因为所有内容由个人开发
+> 注意：版本的更新进度较慢慢，请耐心等待...
 
 ### 使用编程语言
 
@@ -32,8 +32,8 @@ Sakura|帮助|关于
 
 
 ## 关于收费
-**Sakura-UI**为开源源码，作者不会以任何方式收费
-当然你绝的Sakura-UI不错的话，也可以赞助我们
+**introduce**为开源源码，作者不会以任何方式收费
+当然你觉得introduce不错的话，也可以通过投币等方式支持作者
 
 
 ## 联系
