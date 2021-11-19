@@ -54,9 +54,9 @@ window.onload = function (){
 
 
 
-console.log(Alice['text']);
-console.log("%c "+ unescape(Alice['title']) +" %c " + window.atob(Alice['url']) ,"color: white; background: #e9546b; padding:5px 0;","padding:4px;border:1px solid #e9546b;");
 
+console.log("%c "+ unescape(Alice['title']) +" %c " + window.atob(Alice['url']) ,"color: white; background: #e9546b; padding:5px 0;","padding:4px;border:1px solid #e9546b;");
+console.log(Alice['text']);
 
 };
 
