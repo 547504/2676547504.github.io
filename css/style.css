@@ -36,7 +36,7 @@ body{
 /* 白天 */
 body[theme="wihte"]{
 	color: var(--black);
-	background: var(--wihte);
+	background: var(--wihte) ;
 }
 /* 黑夜 */
 body[theme="black"]{
@@ -53,7 +53,7 @@ body[theme="black"]{
         cursor: pointer;
     }
     label[for="btn"] {
-        background: ;
+        background: var(--wihte) ;
     }
     label[for="btn"]::before{
         content: "黑";
