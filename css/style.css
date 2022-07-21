@@ -44,12 +44,42 @@ body[theme="black"]{
 	background: var(--black);
 }
 
+    #btn{
+        display: none;
+    }
+    label[for="btn"] {
+        padding: 8px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    label[for="btn"] {
+        background: ;
+    }
+    label[for="btn"]::before{
+        content: "黑";
+        color: var(--wihte);
+    }
+
+    #btn:checked + label[for="btn"]{
+        background: var(--wihte);
+    }    
+
+    #btn:checked + label[for="btn"]::before{
+        content: "白";
+        color: var(--black);
+    }
+    #btn:checked ~ body{
+	color: var(--wihte);
+	background: var(--black);
+    }
+
+
 .main{
 	width: 100vw;
 	height: 100vh;
 }
 .min{
-	transform: translateY(-50%);
+    transform: translateY(-50%);
     text-align: center;
     top: 50%;
     position: relative;
