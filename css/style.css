@@ -64,7 +64,6 @@ body[theme="black"]{
 	height: 190px;
 	-webkit-width:;
 	border-radius: 50%;
-	cursor: pointer;
 	transition: border-radius 0.15s;
 }
 .author__name{
