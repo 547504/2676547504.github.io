@@ -52,7 +52,7 @@ body[theme="black"]{
         cursor: pointer;
     }
     label[for="btn"] {
-        background: var(--wihte) ;
+        background: var(--black) ;
     }
     label[for="btn"]::before{
         content: "黑";
@@ -60,12 +60,12 @@ body[theme="black"]{
     }
 
     #btn:checked + label[for="btn"]{
-        background: var(--black);
+        background: var(--wihte);
     }    
 
     #btn:checked + label[for="btn"]::before{
         content: "白";
-        color: var(--wihte);
+        color: var(--black);
     }
 
 
