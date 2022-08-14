@@ -45,30 +45,6 @@ body[theme="black"]{
 }
 
 
-    /*theme*/
-    label[type="theme"]{
-        cursor: pointer;
-    }
-    label[type="theme"] input{
-        display: none;
-    }
-    label[type="theme"] div{
-	 display: inline-flex;
-         align-items: center;
-    }
-    label[type="theme"] div::before{
-        content: '黑';
-        padding: 8px;
-        color: var(--white);
-        background: var(--black);
-    }
-
-    label[type="theme"] input:checked + div::before{
-        content: '白';
-        color: var(--black);      
-        background: var(--white);  
-    }
-
 
 
 .main{
@@ -88,6 +64,7 @@ body[theme="black"]{
 	height: 190px;
 	-webkit-width:;
 	border-radius: 50%;
+	cursor: pointer;
 	transition: border-radius 0.15s;
 }
 .author__name{
