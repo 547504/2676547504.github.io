@@ -75,7 +75,7 @@ body[theme="black"]{
 	height: 100vh;
 }
 .min{
-    transform: translateY(-50%);
+    transform: translateY(-65%);
     text-align: center;
     top: 50%;
     position: relative;
