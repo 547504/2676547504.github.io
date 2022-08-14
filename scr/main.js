@@ -38,10 +38,10 @@ function ajax__load(){
 }
 
 function theme__load(){
-    const back = document.body;
-    const theme = document.querySelector('label[type=theme]');
-    const but = document.querySelector('label[type="theme"] input');
-    let no = true;
+    var back = document.body;
+    var theme = document.querySelector('label[type=theme]');
+    var but = document.querySelector('label[type="theme"] input');
+    var no = true;
     theme.onclick = function (){
         if(but.checked){
             if(no){
