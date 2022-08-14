@@ -1,5 +1,5 @@
 :root{
-	--wihte:#FFFFFF;
+	--white:#FFFFFF;
 	--black:#1f1f1f;
 }
 
@@ -36,11 +36,11 @@ body{
 /* 白天 */
 body[theme="wihte"]{
 	color: var(--black);
-	background: var(--wihte) ;
+	background: var(--white) ;
 }
 /* 黑夜 */
 body[theme="black"]{
-	color: var(--wihte);
+	color: var(--white);
 	background: var(--black);
 }
 
@@ -53,7 +53,7 @@ body[theme="black"]{
         display: none;
     }
     label[type="theme"] div{
-        display: inline;
+	 padding: 8px;
     }
     label[type="theme"] div::before{
         content: '黑';
