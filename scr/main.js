@@ -39,11 +39,9 @@ function ajax__load(){
 
 function theme__load(){
     var back = document.body;
-    var theme = document.querySelector('label[type=theme]');
-    var but = document.querySelector('label[type="theme"] input');
+    var but = document.querySelector('.author__img');
     var no = true;
-    theme.onclick = function (){
-        if(but.checked){
+    but.onclick = function (){
             if(no){
                 back.setAttribute("theme","black");      
                 no = false;          
@@ -51,8 +49,6 @@ function theme__load(){
                 back.setAttribute("theme","white");   
                 no = true;
             }
-
-        }
     }
 }
 
