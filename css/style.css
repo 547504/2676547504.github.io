@@ -53,7 +53,8 @@ body[theme="black"]{
         display: none;
     }
     label[type="theme"] div{
-	 padding: 8px;
+	 display: inline-flex;
+         align-items: center;
     }
     label[type="theme"] div::before{
         content: '黑';
