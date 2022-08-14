@@ -58,14 +58,14 @@ body[theme="black"]{
     label[type="theme"] div::before{
         content: '黑';
         padding: 8px;
-        color: white;
-        background: black;
+        color: var(--white);
+        background: var(--black);
     }
 
     label[type="theme"] input:checked + div::before{
         content: '白';
-        color: black;      
-        background: white;  
+        color: var(--black);      
+        background: var(--white);  
     }
 
 
