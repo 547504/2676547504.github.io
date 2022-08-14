@@ -49,7 +49,6 @@ body[theme="black"]{
     }
     label[for="btn"] {
         padding: 8px;
-        border-radius: 50%;
         cursor: pointer;
     }
     label[for="btn"] {
@@ -61,17 +60,14 @@ body[theme="black"]{
     }
 
     #btn:checked + label[for="btn"]{
-        background: var(--wihte);
+        background: var(--black);
     }    
 
     #btn:checked + label[for="btn"]::before{
         content: "白";
-        color: var(--black);
+        color: var(--wihte);
     }
-    #btn:checked ~ body{
-	color: var(--wihte);
-	background: var(--black);
-    }
+
 
 
 .main{
