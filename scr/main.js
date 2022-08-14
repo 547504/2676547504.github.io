@@ -36,5 +36,22 @@ function ajax__load(){
   xmlhttp.send();
 }
 
+function theme__load(){
+    const back = document.body;
+    const theme = document.querySelector('label[type=theme]');
+    const but = document.querySelector('label[type="theme"] input');
+    let no = true;
+    theme.onclick = function (){
+        if(but.checked){
+            if(no){
+                back.setAttribute("theme","black");      
+                no = false;          
+            }else{
+                back.setAttribute("theme","white");   
+                no = true;
+            }
 
+        }
+    }
+}
 
