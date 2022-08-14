@@ -44,28 +44,28 @@ body[theme="black"]{
 	background: var(--black);
 }
 
-    #btn{
-        display: none;
-    }
-    label[for="btn"] {
-        padding: 8px;
+
+    /*theme*/
+    label[type="theme"]{
         cursor: pointer;
     }
-    label[for="btn"] {
-        background: var(--black) ;
+    label[type="theme"] input{
+        display: none;
     }
-    label[for="btn"]::before{
-        content: "黑";
-        color: var(--wihte);
+    label[type="theme"] div{
+        display: inline;
+    }
+    label[type="theme"] div::before{
+        content: '黑';
+        padding: 8px;
+        color: white;
+        background: black;
     }
 
-    #btn:checked + label[for="btn"]{
-        background: var(--wihte);
-    }    
-
-    #btn:checked + label[for="btn"]::before{
-        content: "白";
-        color: var(--black);
+    label[type="theme"] input:checked + div::before{
+        content: '白';
+        color: black;      
+        background: white;  
     }
 
 
