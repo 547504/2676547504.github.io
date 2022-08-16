@@ -63,6 +63,8 @@ body[theme="black"]{
 	宽度：190px;
 	border-radius: 50%;
 	transition: border-radius 0.15s,;
+	animation: show 0.3s;
+	-webkit-animation: show 0.3s;	
 }
 .author__name{
     margin: 5px 0;
@@ -164,4 +166,12 @@ body[theme="black"]{
 @-webkit-keyframes fade-in {/*针对webkit内核*/  
     0% {opacity: 0;transform: translateY(60%);}  
     100% {opacity: 1;transform: translateY(0);}  
+}  
+@keyframes show{
+    0%{opacity: 0;}
+    100% {opacity: 1;}
+}
+@-webkit-keyframes show {/*针对webkit内核*/  
+    0%{opacity: 0;}
+    100% {opacity: 1;}
 }  
