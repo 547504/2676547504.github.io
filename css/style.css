@@ -60,9 +60,6 @@ body[theme="black"]{
 
 
 .author__img{
-	width: 190px;
-	height: 190px;
-	-webkit-width:;
 	border-radius: 50%;
 	transition: border-radius 0.15s;
 }
