@@ -60,7 +60,8 @@ body[theme="black"]{
 
 
 .author__img{
-	宽度：190px;
+	width: 190px;
+	heigh: 190px;
 	border-radius: 50%;
 	transition: border-radius 0.15s,;
 	animation: show 0.3s;
