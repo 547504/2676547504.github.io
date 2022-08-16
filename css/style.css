@@ -60,8 +60,9 @@ body[theme="black"]{
 
 
 .author__img{
+	宽度：190px;
 	border-radius: 50%;
-	transition: border-radius 0.15s;
+	transition: border-radius 0.15s,;
 }
 .author__name{
     margin: 5px 0;
